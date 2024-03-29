@@ -17,7 +17,7 @@ public class productController {
 
     @GetMapping("/")
     public  String helloApi(){
-        return "omg this is";
+        return "omg this is ";
     }
     @GetMapping("/{productId}")
     public Product getProductById(@PathVariable Long productId){
